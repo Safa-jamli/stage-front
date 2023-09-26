@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .login-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .form-container {
+      text-align: center;
+    }
+
+    img.illustration {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .register-forget a {
+      margin: 0 10px; /* Ajouter de la marge entre les liens */
+    }
+  </style>
+  <title>Login Form</title>
+</head>
+<body>
+<section class="container">
+  <div class="login-container">
+    <div class="circle circle-one"></div>
+    <div class="form-container">
+      <img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" alt="illustration" class="illustration" />
+      <h1 class="opacity">LOGIN</h1>
+      <form>
+        <input type="text" placeholder="USERNAME" />
+        <input type="password" placeholder="PASSWORD" />
+        <button class="opacity">SUBMIT</button>
+      </form>
+      <div class="register-forget opacity">
+        <a href="signup">REGISTER</a>
+        &nbsp; <!-- Utiliser un espace insécable pour séparer les liens -->
+        <a href="">FORGOT PASSWORD</a>
+      </div>
+    </div>
+    <div class="circle circle-two"></div>
+  </div>
+  <div class="theme-btn-container"></div>
+</section>
+</body>
+</html>
